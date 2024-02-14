@@ -1,5 +1,4 @@
 # react3-task6
-react-hook-form, redux, react-router-dom
 
-
-update
+The API i used: ​https://fakestoreapi.com/docs <br/>
+I also used: react-hook-form, redux, react-router-dom

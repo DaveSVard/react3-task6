@@ -13,7 +13,7 @@ export const MyRoutes:React.FC = () => {
             children: [
                 {path: "/", element: <ShowProducts/>},
                 {path: "/addProduct", element: <AddProduct/>},
-                {path: "/seeProduct", element: <SeeProduct/>},
+                {path: "/seeProduct/:id", element: <SeeProduct/>},
             ]
         },
         {

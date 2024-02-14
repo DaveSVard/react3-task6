@@ -13,5 +13,3 @@ root.render(
       <App />
     </Provider>
 );
-
-console.log("good day")

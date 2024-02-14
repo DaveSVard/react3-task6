@@ -3,8 +3,8 @@ import { myAxios } from "../../app/store";
 import { Product } from "../type";
 
 export enum SortPrice {
-    DESC = "DESC",
-    ASC = "ASC"
+    DESC = "desc",
+    ASC = "asc"
 }
 
 export const getAllProductsAPI = createAsyncThunk(

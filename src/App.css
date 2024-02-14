@@ -2,38 +2,112 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.show {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  row-gap: 9px;
+  margin-top: 25px;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.show__div {
+  width: 50%;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.show__div a {
+  color: black;
+}
+
+.limit input {
+  width: 235px;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.search__by__category select {
+  width: 250px;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid black;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 9px;
+}
+
+.sort button {
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+.form {
+  width: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.form input, .form select {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.width {
+  width: 300px !important;
+}
+
+.form button {
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid black;
+  width: 125px;
+}
+
+.form p {
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.info {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info hr {
+  width: 100%;
+}
+
+.info img {
+  width: 250px;
+  height: 200px;
+}
+
+.info button {
+  margin-top: 20px;
+  background-color: red;
+  border: 1px solid red;
+  padding: 7px;
+  border-radius: 5px;
 }
